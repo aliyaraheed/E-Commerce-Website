@@ -1,0 +1,277 @@
+.navbar{
+    background-color: rgb(138, 247, 138);
+    width: 100%;
+}
+
+
+.nav-link{
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 15px;
+    
+
+}
+.nav-link:hover{
+    background: rgb(20, 219, 20);
+}
+
+.navbar-brand{
+    height: 50px;
+    width: 70px;
+}
+.search{
+    height: 45px;
+    outline: none;
+    border: 2px solid rgb(20, 219, 20);
+    background-color: transparent;
+    border-radius: 20px 0px 0px 20px;
+    border-right: none;
+}
+.btn1{
+    height: 45px;
+    outline: none;
+    background-color: rgb(20, 219, 20);
+    border-radius:0px 20px 20px 0px ;
+    border: 2px solid rgb(20, 219, 20);
+    
+}
+.btn1:hover{
+    background-color: rgb(138, 247, 138);
+}
+.bi{
+    color: rgb(20, 219, 20);
+    font-size: 30px;
+    padding-top: 5px;
+    padding-left: 5px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.bi:hover{
+    color: rgb(20, 219, 20);
+}
+.navbar-toggler{
+    font-size: 20px;
+    color: black;
+}
+.navbar-toggler:focus{
+    outline: none;
+    box-shadow: none;
+}
+.main{
+    background: url("https://media.istockphoto.com/id/1397850285/photo/healthy-food-background-healthy-food-in-paper-bag-vegetables-and-fruits-on-white-food.jpg?s=612x612&w=0&k=20&c=GsSEIpFj8gyj65Owffe3xebvhORO-Nvd9Ms6c5tYIEQ=") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.m1{
+    font-size: 5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.m2{
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.m0{
+    font-size: 15px;
+}
+.mbtn1{
+    height: 50px;
+    width: 25%;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: rgb(20, 219, 20);
+    border-radius: 50px;
+}
+.mbtn2{
+    background-color: rgb(20, 219, 20);
+    outline: none;
+    border: 1px solid rgb(20, 219, 20);
+    border-radius: 50px;
+    height: 50px;
+    width: 25%;
+}
+.mbtn2:hover{
+    background: rgb(138, 247, 138);
+}
+/*====About===*/
+.about{
+    background: url("https://www.eurokidsindia.com/blog/wp-content/uploads/2023/05/vegetable-fruit-names.jpg") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.abth1{
+    font-size: 42px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.abtbtn{
+    height: 50px;
+    width: 25%;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: rgb(20, 219, 20);
+    border-radius: 50px;
+}
+.abtp1{
+    font-size: 15px;
+
+}
+.abtp2{
+    font-size: 18px;
+    font-weight: 500;
+}
+.welcome{
+    background-color: rgb(20, 219, 20);
+}
+.wh1{
+     font-size: 3rem;
+     font-weight: bold;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.wp2{
+    font-size: 15px;
+    font-weight: 500;
+}
+.div4{
+background-color: rgb(20, 219, 20);
+height: 40vh;
+width: 100%;
+}
+.bi4{
+    font-size: 45px;
+    color: rgb(20, 219, 20);
+}
+.h24{
+    padding: 10px 0px;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 20px;
+}
+.prdh1{
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.star{
+    text-align: end;
+    color: orange;
+}
+.prdbtn{
+    height: 50px;
+    width: 200px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: rgb(20, 219, 20);
+    border-radius: 50px;
+    
+    
+}
+.prdbtn:hover{
+    background-color: rgb(138, 247, 138);
+}
+.pdtimg{
+    height: 210px;
+    width: 220px;
+}
+.orange{
+    height: 20px;
+    width: 200px;
+}
+
+
+
+
+footer {
+    background-color: rgb(20, 219, 20);
+    color: white;
+    padding: 20px 0;
+    position: relative;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+}
+
+.footer-section h4 {
+    margin-bottom: 15px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-section .social-media {
+    display: flex;
+}
+
+.footer-section .social-media li {
+    margin-right: 10px;
+}
+
+.footer-section .social-media li a img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-section form {
+    display: flex;
+}
+
+.footer-section form input[type="email"] {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.footer-section form button {
+    padding: 10px;
+    border: none;
+    background-color: rgb(138, 247, 138);
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.footer-section form button:hover {
+    background-color: rgb(13, 56, 4);
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #444;
+}
